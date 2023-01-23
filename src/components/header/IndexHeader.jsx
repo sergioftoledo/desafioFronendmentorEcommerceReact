@@ -34,9 +34,9 @@ const MainHeader = () => {
           alt="Logo Sneakers"
         />
         <nav
-          className={`bg-white font-bold md:static md:mr-auto md:flex md:flex-row md:gap-4 md:p-0 ${
+          className={`font-bold md:static md:mr-auto md:flex md:h-auto md:flex-row md:gap-4 md:p-0 ${
             isOpenMenu
-              ? "absolute top-0 left-0 z-10 flex h-full w-4/5 flex-col gap-4 gap-y-5  p-8"
+              ? "fixed top-0 left-0 z-10 flex h-full w-4/5 flex-col gap-4 gap-y-5  bg-white p-8"
               : "hidden"
           }`}
         >
